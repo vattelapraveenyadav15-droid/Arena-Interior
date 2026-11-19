@@ -31,8 +31,6 @@ const manrope = Manrope({
 
 // Only fetched when Telugu glyphs are actually rendered (language switch).
 const telugu = Noto_Sans_Telugu({
-  subsets: ["telugu"],
-  weight: ["400"],
   display: "swap",
   variable: "--font-telugu",
   preload: false,
